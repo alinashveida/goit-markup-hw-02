@@ -1,3 +1,16 @@
+:root{
+  --main-font:"Roboto" , sans-serif;
+  --secondary-font: "Raleway", sans-serif ;
+  --accent-color: #212121;
+  --secondary-color:#757575;
+}
+
+body{
+  font-family: var(--main-font);
+  color: var(--accent-color);
+}
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -12,11 +25,79 @@
     overflow: hidden;
   }
 
+ 
   /* =======================COMPONENTS=========================*/
   /* =====================END COMPONENTS======================*/
 
    /* =======================HEADER=========================*/
+  .logo{   
+font-family: var(--secondary-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:#000000;
+  }
+
+  .logo-accent{
+    color: #2196F3;
+  }
+  
+   .navigation-menu-link{
+font-family: var(--main-font);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: left;
+color: var(--accent-color);
+}
+
+.navigation-menu-link:hover,
+.navigation-menu-link:focus,
+.contact-email:hover,
+.contact-email:focus,
+.contact-phone:hover,
+.contact-phone:focus{
+  color:  #2196F3;
+}
+
+ .contact-phone,
+ .contact-email{
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--secondary-color);
+  }
+
    /* =====================END HEADER======================*/
 
    /* ========================HERO==========================*/
+  .hero{
+    background-color: #2F303A;
+  }
+   .title{
+font-family:var(--main-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+  } 
+
+  .button{
+ font-family: var(--main-font);
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color:#2196F3 ;
+  }
    /* =======================END HERO======================*/
