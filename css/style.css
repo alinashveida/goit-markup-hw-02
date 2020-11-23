@@ -200,10 +200,6 @@ ul{
   color: #FFFFFF;
 }
 
-.button-portfolio.is-current{
- background-color: #2196F3;
-  color: #FFFFFF;
-}
 
 .button-portfolio{
   font-family: var(--main-font);
