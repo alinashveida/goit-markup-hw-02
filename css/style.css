@@ -10,6 +10,10 @@ body{
   color: var(--accent-color);
 }
 
+ul{
+  list-style: none;
+}
+
  /* =======================COMPONENTS=========================*/
   .visually-hidden {
     position: absolute;
@@ -29,6 +33,9 @@ body{
     color: #2196F3;
   }
 
+  .navigation-menu-link.is-current{
+    color: #2196F3;
+  }
   /* =====================END COMPONENTS======================*/
 
    /* =======================HEADER=========================*/
@@ -187,19 +194,25 @@ body{
 
 /* ========================END FOOTER======================*/
 /* ======================PORTFOLIO MAIN====================*/
-.button-item:hover,
-.button-item:focus{
+.button-portfolio:hover,
+.button-portfolio:focus{
   background-color: #2196F3;
   color: #FFFFFF;
 }
 
-.button-item{
+.button-portfolio.is-current{
+ background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+.button-portfolio{
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .work-examples-title{
